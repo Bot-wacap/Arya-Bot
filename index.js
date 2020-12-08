@@ -7,8 +7,8 @@ const instagramlu = 'https://instagram.com/Uwiw_Bocah'; // Nama Instagramlu cok
 const whatsapplu = 'Wa.me/6285813655726'; // Nomor whatsapplu cok
 const kapanbotaktif = 'Tergantung jaringan'; // Kapan bot lu aktif
 const grupch1 = 'https://chat.whatsapp.com/D5U6a2bvurWCrVk6R925a6'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://youtu.be/8BXZb3xC5xk'; // OFFICIAL YT LU
-const grupch3 = 'https://chat.whatsapp.com/Jb93uvhAbbGKkUXMos0Ej3'; // OFFICIAL GRUP LU 3
+const grupch2 = 'https://BELUM BUAT'; // OFFICIAL YT LU
+const grupch3 = 'https://BELUM ADA'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
@@ -53,7 +53,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@Fws_grup`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] TINGGAL SCAN :@Uwiw_Bocah`);
 });
 
 conn.on('credentials-updated', () =>
@@ -140,7 +140,7 @@ else if (text == 'Asu'){
 conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
 }
 else if (text == '#owner'){
-conn.sendMessage(id, 'Owner NFQ. SQUAD : wa.me/+6285788555068' ,MessageType.text);
+conn.sendMessage(id, 'Owner Uwiw_Bocah : wa.me/+6285813655726' ,MessageType.text);
 }
 else if (text == 'bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
