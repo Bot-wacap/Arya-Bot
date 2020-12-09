@@ -68,11 +68,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by NAGA SQUAD`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by Uwiw Bocah`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @FWS_GRUP`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @Uwiw_Bocah`)
 })
 
 conn.on('message-new', async(m) =>
@@ -118,11 +118,11 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 else if (text == 'assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
 }
-else if (text == 'salam'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+else if (text == '#help'){
+conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
 }
-else if (text == 'asalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+else if (text == '#menu'){
+conn.sendMessage(id, ' *Menampilkan Fitur Menu!!!* ' ,MessageType.text);
 }
 else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Iya ada yg bisa kami bantu?' ,MessageType.text);
@@ -130,14 +130,14 @@ conn.sendMessage(id, 'Waalaikumsalam, Iya ada yg bisa kami bantu?' ,MessageType.
 else if (text == 'p'){
 conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik #help)' ,MessageType.text);
 }
-else if (text == 'P'){
-conn.sendMessage(id, 'Kok gak salam lu? Tenang aja disini ada bot ketik #help untuk [menu]' ,MessageType.text);
+else if (text == '#info'){
+conn.sendMessage(id, ' *Menampilkan Info!!!* ' ,MessageType.text);
 }
 else if (text == 'Halo'){
 conn.sendMessage(id, 'Ehh bang jago, Ketik #help untuk bantuan !' ,MessageType.text);
 }
-else if (text == 'Asu'){
-conn.sendMessage(id, 'Lu Asw' ,MessageType.text);
+else if (text == '#donasi'){
+conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
 }
 else if (text == '#owner'){
 conn.sendMessage(id, 'Owner Uwiw_Bocah : wa.me/+6285813655726' ,MessageType.text);
