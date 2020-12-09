@@ -116,25 +116,25 @@ conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsA
 
 //Chat NAGA KUYZ
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, 'Waalaikumsalam, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
-else if (text == '#help'){
+else if (text == '$help'){
 conn.sendMessage(id, ' *Menampilkan Pilihan Menu!!!* ' ,MessageType.text);
 }
-else if (text == '#menu'){
-conn.sendMessage(id, ' *Menampilkan Fitur Menu!!!* ' ,MessageType.text);
+else if (text == 'P'){
+conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik $help)' ,MessageType.text);
 }
 else if (text == 'Assalamualaikum'){
 conn.sendMessage(id, 'Waalaikumsalam, Iya ada yg bisa kami bantu?' ,MessageType.text);
 }
 else if (text == 'p'){
-conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik #help)' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, butuh bantuan lu? Salam yg bener napa ! (Ketik $help)' ,MessageType.text);
 }
 else if (text == '#info'){
 conn.sendMessage(id, ' *Menampilkan Info!!!* ' ,MessageType.text);
 }
 else if (text == 'Halo'){
-conn.sendMessage(id, 'Ehh bang jago, Ketik #help untuk bantuan !' ,MessageType.text);
+conn.sendMessage(id, 'Ehh bang jago, Ketik $help untuk bantuan !' ,MessageType.text);
 }
 else if (text == '#donasi'){
 conn.sendMessage(id, ' *Menampilkan Donasi!!!* ' ,MessageType.text);
@@ -145,41 +145,41 @@ conn.sendMessage(id, 'Owner Uwiw_Bocah : wa.me/+6285813655726' ,MessageType.text
 else if (text == 'bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
 }
-else if (text == 'Ngentod'){
-conn.sendMessage(id, 'Pengin ngentod?' ,MessageType.text);
+else if (text == '#help){
+conn.sendMessage(id, 'PREFIX ANDA SALAH SILAKAN KETIK "$help" UNTUK MENAMPILKAN FITUR BOT' ,MessageType.text);
 }
-else if (text == 'Anjing'){
-conn.sendMessage(id, 'Pesan anda mengandung rasist ! Reason : Anjing' ,MessageType.text);
+else if (text == '!help'){
+conn.sendMessage(id, 'PREFIX ANDA SALAH SILAKAN KETIK "$help" UNTUK MENANPILKAN FITUR BOT' ,MessageType.text);
 }
 else if (text == 'Bacot'){
-conn.sendMessage(id, 'Lu bacot? apa capek? (#help) aja kuyz' ,MessageType.text);
+conn.sendMessage(id, 'Lu bacot? apa capek? ($help) aja kuyz' ,MessageType.text);
 }
 else if (text == 'Test'){
-conn.sendMessage(id, 'Test 1,2,3 ketik #help' ,MessageType.text);
+conn.sendMessage(id, 'Test 1,2,3 ketik $help' ,MessageType.text);
 }
 else if (text == 'Hai'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Woi'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Eoy'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Hi'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Gan'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Sis'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Bro'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Min'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'yang'){
 conn.sendMessage(id, 'Napa yang?' ,MessageType.text);
@@ -188,19 +188,19 @@ else if (text == 'I love u'){
 conn.sendMessage(id, 'love you too' ,MessageType.text);
 }
 else if (text == 'Mas'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Mba'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Bre'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Cuy'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'Euy'){
-conn.sendMessage(id, 'Ya?, Ketik #help/#info/#donasi Contoh #help' ,MessageType.text);
+conn.sendMessage(id, 'Ya?, Ketik $help/$info/$donasi Contoh $help' ,MessageType.text);
 }
 else if (text == 'makasi'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
