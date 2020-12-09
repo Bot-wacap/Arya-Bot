@@ -145,7 +145,7 @@ conn.sendMessage(id, 'Owner Uwiw_Bocah : wa.me/+6285813655726' ,MessageType.text
 else if (text == 'bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
 }
-else if (text == 'Bot){
+else if (text == 'Bot'){
 conn.sendMessage(id, 'NAPA MANGGIL-MANGGIL KEK GAK ADA KERJAAN !' ,MessageType.text);
 }
 else if (text == '!help'){
